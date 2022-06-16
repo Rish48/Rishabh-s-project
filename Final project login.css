@@ -1,0 +1,45 @@
+a:visited{
+    background-color:red;
+    color:blue;
+}
+#name:focus{
+    background-color:red;
+    color:blue;
+}
+#lname:focus{
+    background-color:red;
+    color:blue;
+}
+#pass:focus{
+    background-color:red;
+    color:blue;
+}
+#name{
+    border:3px dotted red;
+}
+#lname{
+    border:3px dotted red;
+}
+#pass{
+    border:3px dotted red;
+}
+#label{
+    border:3px dotted blue;
+}
+body{
+    border:5px solid blue;
+    border-radius: 7px;
+   background-image: url(https://image.shutterstock.com/image-photo/restaurant-top-view-background-website-260nw-1789991981.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+label{
+    color:red;
+
+}
+input:focus{
+    background-color: #bdd4f2;
+}
+#h1login{
+    color:red;
+}

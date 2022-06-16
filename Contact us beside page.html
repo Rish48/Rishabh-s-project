@@ -1,0 +1,29 @@
+<html>
+    <head>
+<link rel="stylesheet" href="Contact us beside page.css">
+<link rel="icon" href="file:///C:/Users/rautr/OneDrive/Desktop/Codeyoung/Final%20project/pasta-removebg-preview.png">
+<script>
+    function Validateform2(){
+    var num = form2.input1.value;
+    
+
+    if(num == ""){
+        alert('Please enter your phone number');
+    }
+    else{
+        alert("Your Phone number is: "+num+", and we will automatically call you for your order soon.");
+    }
+    
+}
+</script>
+    </head>
+    <body>
+       <center><b><u><h1 id="h12">Please add phone number to call Rishabh's Restauraunt employees!!</h1></u></b></center>
+       <center><form onsubmit="Validateform2()" name="form2">
+           <label>Enter Your Phone Number:</label>
+           <input name="input1">
+           <input type="Submit">
+       </form></center>
+       <center><p><a href="Final project.html">Go home</a></p></center>
+    </body>
+</html>

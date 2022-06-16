@@ -1,0 +1,13 @@
+body{
+    border:5px solid blue;
+    border-radius: 7px;
+    background-image: url(https://i.pinimg.com/736x/3c/e7/2d/3ce72d456c8c8e8d48a8ffc1822a5b72.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    color:white;
+}
+
+a:visited{
+    color:red;
+}

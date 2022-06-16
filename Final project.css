@@ -1,0 +1,10 @@
+
+body{
+
+    border:5px solid red;
+    border-radius: 7px;
+    background-color: #bef7cc;
+}
+a:visited{
+    color:red;
+}

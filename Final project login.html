@@ -1,0 +1,70 @@
+<html>
+    <head>
+<link rel="stylesheet" href="Final project login.css">
+<link rel="icon" href="file:///C:/Users/rautr/OneDrive/Desktop/Codeyoung/Final%20project/pasta-removebg-preview.png">
+<script>
+    function validateform(){
+    
+
+    var fn = form100.name.value;
+    
+    var ln = form100.lname.value;
+    var pass = form100.pass.value;
+    var email = form100.pass2.value;
+
+
+
+if(fn == "Rishabh"){
+    alert('Your first name is correct (Rishabh)');
+}
+else if(fn!="Rishabh"){
+    alert('Your first name is not correct.');
+}
+ if(ln == "Raut"){
+    alert('Your last name is correct (Raut)');
+}
+else if(ln!="Raut"){
+    alert('Your last name is not correct');
+}
+if(pass == "RishabhRaut"){
+    alert('Your password is correct (RishabhRaut)');
+}
+else if(pass!="RishabhRaut"){
+    alert('Your password is incorrect');
+}
+if (email == "rishabhraut@gmail.com"){
+    alert('Your email is correct (rishabhraut@gmail.com)')
+}
+else if(email!="rishabhraut@gmail.com"){
+    alert('Your email is incorrect')
+}
+
+}
+</script>
+    </head>
+    <body><div style="padding-top:150px ; padding-left: 150px;">
+        <form onsubmit="validateform()" name="form100">
+           <span id="form1">
+         <label for="label">Name:</label>
+            <input name="name" placeholder="Insert name"><br><br>
+            <label for="label">Last Name:</label>
+            <input name="lname" placeholder="Insert last name"><br><br>
+            <label for="label">Password:</label>
+            <input name="pass" placeholder="Insert password"><br><br>
+            <label for="email">Email:</label>
+            <input name="pass2" placeholder="Insert email">
+           </span><br><br>
+
+            <input type="submit" value="Submit">
+            <p id="h1login">For this website only insert value "Rishabh" for first name, "Raut" for last name, and "RishabhRaut" for password,<br><br> and "rishabhraut@gmail.com" for the email to get alert that your values are correct.</p>
+           
+
+        </form>
+        
+        <h1><a href="Final project contat page.html">Back to Contact us</a></h1>
+    
+        <h1><a href="Final project.html">Go Home</a></h1>
+    </div>
+    
+    </body>
+</html>
